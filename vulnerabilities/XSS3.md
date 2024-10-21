@@ -22,7 +22,7 @@ Image:
 
 ![image](https://github.com/user-attachments/assets/2d8fd1ee-2ada-482d-b44d-5e98333fe589)
 
-Proof of Concept: To reproduce this attack, an attacker can inject a script into the Name field under Project Administration while adding a new project or the Name field under Milestone when adding/editing a milestone for the corresponding project that has been created, as shown in the two figures above, of the Collabtive application. The payload '" onfocus="alert(1)" autofocus="' was successfully accepted, leading to an alert being triggered for the user when the created project and milestones are being viewed under action=system and mode=edited or when the customers created are being viewed or edited under action=showproject & mode=listadded respectively as shown in the two figures below.
+Proof of Concept: To reproduce this attack, an attacker can inject a script into the Name field under Project Administration while adding a new project or the Name field under Milestone when adding/editing a milestone for the corresponding project that has been created, as shown in the two figures above, of the Collabtive application. The payload '" onfocus="alert(1)" autofocus="' was successfully accepted, leading to an alert being triggered for the user when the created milestone is being viewed or when the created project is being viewed under action=projects in the two figures below.
 
 Image:
 
