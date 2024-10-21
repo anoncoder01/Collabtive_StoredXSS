@@ -12,13 +12,13 @@ Impact: Cross-Site Scripting (XSS) vulnerability is a serious web security threa
 
 Image: 
 
-![image](https://github.com/user-attachments/assets/533df32a-fc93-4e38-8865-36327d1d2573)
-
 ![image](https://github.com/user-attachments/assets/81a1ca0a-6f11-433c-b2c0-1a45d55698ed)
 
 It is important to first create a project in order to be able reproduce the first vulnerability. Following the login to Collabtive application, go to the Administration section and then click on Project Administration. Create a temporary project following the instructions, which will show up under the corresponding customer project administration, as shown in the above image. Note that the customer name has a vulnerability in itself which has been discussed [here] so make sure to include an appropriate name.
 
 Image: 
+
+![image](https://github.com/user-attachments/assets/533df32a-fc93-4e38-8865-36327d1d2573)
 
 ![image](https://github.com/user-attachments/assets/2d8fd1ee-2ada-482d-b44d-5e98333fe589)
 
