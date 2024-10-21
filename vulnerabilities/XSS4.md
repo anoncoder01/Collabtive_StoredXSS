@@ -24,7 +24,7 @@ Image:
 ![image](https://github.com/user-attachments/assets/0d117230-bf9c-447d-8db8-c8b25b15bd99)
 
 
-Proof of Concept: To reproduce this attack, an attacker can inject a script into the Name field under Project Administration while adding a new project or the Name field under Milestone when adding/editing a milestone for the corresponding project that has been created, as shown in the two figures above, of the Collabtive application. The payload '" onfocus="alert(1)" autofocus="' was successfully accepted, leading to an alert being triggered for the user when the created milestone is being viewed or when the created project is being viewed under action=projects in the two figures below.
+Proof of Concept: To reproduce this attack, an attacker can inject a script into the Name field under Project Administration while adding a new tasklist or the Name field under User Administration either when adding or editing a new user for the corresponding project that has been created, as shown in the two figures above, of the Collabtive application. The payload '" onfocus="alert(1)" autofocus="' was successfully accepted, leading to an alert being triggered for the user when the created tasklist is being viewed or when the list of users is being viewed under action=projects in the two figures below.
 
 Image:
 
